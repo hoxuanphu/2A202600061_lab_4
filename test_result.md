@@ -171,4 +171,29 @@ TravelBuddy: Dưới đây là các chuyến bay từ Hà Nội đi Đà Nẵng:
 
 Nếu bạn cần thêm thông tin hoặc muốn đặt vé, hãy cho mình biết nhé!
 
-Bạn:
+Bạn: từ Sài Gòn ra đà nẵng, ngân sách 5 triệu, từ ngày mai đến chủ nhật
+
+TravelBuddy đang suy nghĩ...
+Gọi tool: search_flights({'origin': 'Hồ Chí Minh', 'destination': 'Đà Nẵng'})
+Gọi tool: search_hotels({'city': 'Đà Nẵng', 'max_price_per_night': 2500000})
+Gọi tool: calculate_budget({'total_budget': 5000000, 'expenses': 've_may_bay:780000,khach_san:2500000'})
+Trả lời trực tiếp
+
+TravelBuddy: Dưới đây là thông tin chuyến bay và khách sạn cho chuyến đi từ Sài Gòn đến Đà Nẵng trong dịp từ thứ 7 đến chủ nhật:
+
+- **Chuyến bay:** VietJet Air - 13:00 -> 14:20 - 780,000 VNĐ
+- **Khách sạn:** Memory Hostel (2 sao) - 250,000 VNĐ/đêm
+
+**Phân tích ngân sách:**
+- Tổng ngân sách: 5,000,000 VNĐ
+- Chi phí vé máy bay: 780,000 VNĐ
+- Chi phí khách sạn: 2,500,000 VNĐ (2 đêm)
+- Tổng chi phí: 3,280,000 VNĐ
+- Số dư còn lại: 1,720,000 VNĐ (Trong tầm kiểm soát!)
+
+**Gợi ý thêm:**
+- Tại Đà Nẵng, bạn có thể thưởng thức món mì Quảng và bánh tráng cuốn thịt heo tại các quán ăn địa phương.
+- Nếu có thời gian, bạn cũng nên ghé thăm bãi biển Mỹ Khê - một trong những bãi biển đẹp nhất Việt Nam!
+
+Nếu bạn cần thêm thông tin hoặc đặt dịch vụ, cứ thoải mái hỏi nhé!
+
