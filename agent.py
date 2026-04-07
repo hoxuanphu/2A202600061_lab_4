@@ -99,6 +99,6 @@ if __name__ == "__main__":
             config=config
         )
 
-        final = result["messages"][-1]
+        
         final = result["messages"][-1]
         print(f"\nTravelBuddy: {final.content}")
