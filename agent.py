@@ -22,7 +22,7 @@ class AgentState(TypedDict):
 
 # 3. Khởi tạo LLM và Tools
 tools_list = [search_flights, search_hotels, calculate_budget]
-llm = ChatOpenAI(model="gpt-4o")
+llm = ChatOpenAI(model="gpt-4o-mini")
 llm_with_tools = llm.bind_tools(tools_list)
 
 
