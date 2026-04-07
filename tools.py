@@ -61,7 +61,8 @@ HOTELS_DB = {
 def search_flights(origin: str, destination: str) -> str:
     """
     Tìm kiếm các chuyến bay giữa hai thành phố.
-
+    Hãy gọi hàm này ngay khi người dùng nhắc đến địa điểm đi và đến,
+    kể cả khi họ chưa cung cấp ngày giờ cụ thể.
     Tham số:
     - origin: thành phố khởi hành (VD: 'Hà Nội', 'Hồ Chí Minh')
     - destination: thành phố đến (VD: 'Đà Nẵng', 'Phú Quốc')
