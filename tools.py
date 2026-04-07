@@ -63,6 +63,7 @@ def search_flights(origin: str, destination: str) -> str:
     Tìm kiếm các chuyến bay giữa hai thành phố.
     Hãy gọi hàm này ngay khi người dùng nhắc đến địa điểm đi và đến,
     kể cả khi họ chưa cung cấp ngày giờ cụ thể.
+    Khách hàng có thể nhầm với tên cũ của địa danh, hãy sửa lại cho đúng rồi sử dụng hàm.
     Tham số:
     - origin: thành phố khởi hành (VD: 'Hà Nội', 'Hồ Chí Minh')
     - destination: thành phố đến (VD: 'Đà Nẵng', 'Phú Quốc')
@@ -140,6 +141,7 @@ def calculate_budget(total_budget: int, expenses: str) -> str:
 
     Trả về bảng chi tiết các khoản chi và số tiền còn lại.
     Nếu vượt ngân sách, cảnh báo rõ ràng.
+    Nếu khách hàng không đề cập ngày tháng đặt vé thì áp dụng ngay hôm nay để tìm hôm nay là thứ mấy, có lễ lớn hay không.
     """
 
     # TODO: Sinh viên tự triển khai
